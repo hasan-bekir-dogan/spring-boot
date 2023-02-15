@@ -97,13 +97,13 @@ public class EmployeeServiceImpl implements EmployeeServices {
     @Override
     public EmployeeDto EntitytoDto(EmployeeEntity employeeEntity) {
         EmployeeDto employeeDto =  modelMapper.map(employeeEntity, EmployeeDto.class);
-        return null;
+        return employeeDto;
     }
 
     // DTO => Entity
     @Override
     public EmployeeEntity DtoToEntity(EmployeeDto employeeDto) {
         EmployeeEntity employeeEntity = modelMapper.map(employeeDto, EmployeeEntity.class);
-        return null;
+        return employeeEntity;
     }
 }
