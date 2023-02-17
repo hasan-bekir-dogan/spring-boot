@@ -1,4 +1,4 @@
-package com.bekirdogan.controller;
+package com.bekirdogan.tutorials.controller;
 
 import com.bekirdogan.dto.ProductDto;
 import org.springframework.stereotype.Controller;

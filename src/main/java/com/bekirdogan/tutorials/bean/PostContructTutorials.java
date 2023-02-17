@@ -1,7 +1,7 @@
-package com.bekirdogan.bean;
+package com.bekirdogan.tutorials.bean;
 
-import com.bekirdogan.controller.BeanController;
-import jakarta.annotation.PostConstruct;
+import com.bekirdogan.tutorials.controller.BeanController;
+import javax.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 

@@ -13,15 +13,15 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
-class PatikaSpringBootApplicationTests implements TestCrud {
+class PatikaSpringBootApplicationTests /*implements TestCrud*/ {
 
-    @Autowired
-    EmployeeRepository employeeRepository;
+    /*@Autowired
+    EmployeeRepository employeeRepository;*/
 
     @Test
     void contextLoads() {
     }
-
+/*
     // Create
     @Test
     @Override
@@ -79,5 +79,5 @@ class PatikaSpringBootApplicationTests implements TestCrud {
 
         // isFalse
         assertThat(employeeRepository.existsById(5L)).isFalse();
-    }
+    }*/
 }

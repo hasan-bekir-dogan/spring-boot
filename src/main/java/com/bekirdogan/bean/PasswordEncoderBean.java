@@ -1,4 +1,4 @@
-package com.bekirdogan.bean;
+package com.bekirdogan.tutorials.bean;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

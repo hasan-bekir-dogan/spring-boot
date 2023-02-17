@@ -1,4 +1,4 @@
-package com.bekirdogan.bean;
+package com.bekirdogan.tutorials.bean;
 
 import com.bekirdogan.audit.AuditorAwareImpl;
 import org.springframework.context.annotation.Bean;

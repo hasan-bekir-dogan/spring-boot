@@ -1,4 +1,4 @@
-package com.bekirdogan.bean;
+package com.bekirdogan.tutorials.bean;
 
 import com.bekirdogan.dto.BeanDto;
 import org.springframework.context.annotation.Bean;
